@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background: url("pine.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	position: relative;
+}
+.layer{
+	background:-webkit-linear-gradient(rgba(0,0,0,0.93),rgba(0,0,0,0.93));
+    position: absolute;
+    
+    width: 100vw;
+    height: 100vh;
+
+}
+.input{
+	padding: 15px;
+	position: absolute;
+	top: 50vh;
+  	left: 50vw;
+  	-ms-transform: translateX(-50%) translateY(-50%);
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+  	border-bottom: 2px solid white;
+}
+input{
+	 border:none;
+}
+input[type="submit"]{
+	display: none;
+}
+input[type="text"]{
+	color: white;
+  background-color : transparent; 
+  font-size: 20px;
+  outline: none;
+
+}
+.icon{
+	font-size: 30px;
+	color: white
+}
+@media (max-width: 967px)
+{
+	body{
+		background: url("pine2.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	}
+}
+/*a{
+	top: 10px;
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: black;
+	letter-spacing: 4;
+	text-decoration: none;
+	font-size: 20px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+a:hover{
+	color: #255784;
+	background:white;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+}*/
+.signup_button{
+			color: white;
+			margin-right: 10px;
+			margin-top: 10px;
+	    	background: transparent;
+	    	font-size: 18px;
+	    	padding-top: 12px;
+	    	margin-right: 25px;
+	    	padding-bottom: 10px;
+	    	padding-right: 10px;
+	    	padding-left: 10px;
+	    	cursor: pointer; 
+	    	text-align: center;
+	    	border-bottom:1px solid white;
+	    	z-index: 100;	
+	    }
+	    
+	    
+.button{
+	display: flex;
+	justify-content: flex-end;
+}
